@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import { regexValidate } from './regex-utils';
+
+regexValidate("has@d2Ehdah")
 
 function App() {
   return (
